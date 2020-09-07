@@ -102,6 +102,8 @@ tourSchema.post(/^find/, function (docs, next) {
   next();
 });
 
+// AGGREGATION MIDDLEWARE
+
 const Tour = mongoose.model('Tour', tourSchema);
 
 module.exports = Tour;
